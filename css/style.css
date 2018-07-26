@@ -97,6 +97,7 @@ body {
   color: #000000;
   text-align: left;
   background-color: blue;
+  background: blue;
 }
 
 .header-bar .address {
