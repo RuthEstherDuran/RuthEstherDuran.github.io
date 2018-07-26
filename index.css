@@ -1,0 +1,210 @@
+*{
+	
+	font-family:arial;
+	padding: 0px;
+	margin: 0px;
+}
+body
+{
+	background-color: #pink;
+}
+#titulo
+{
+	height:-2em;
+	font-size:15px;
+
+}
+#f,#t,#y{
+    width: 14px;
+    height: auto;
+}
+#searchterm
+{
+	
+	width:10em;
+	height:1.5em;
+	padding-bottom:1em;
+	font-size:8px;
+	margin-left:1em;
+}#search
+{
+	
+	width:5em;
+	height:1.7em;
+	padding-bottom:1em;
+	font-size:8px;
+}
+.fiel
+{
+	margin-right:2em;
+}
+.menu {
+	border: solid 0.5px;
+	box-shadow: 10px, black;
+	background: white;
+	padding: 0px;
+	margin: 0px;
+	width:30%;
+	
+}
+div#mas
+{
+	background-color: pink;
+	margin-left:50em;
+	margin-right: 20px;
+	width: 12%;
+	padding-top:2em;
+	
+}
+#ima1,#ima2,#ima3,#ima4,#ima5
+{
+	width:110%;
+	height:7em;
+	margin-bottom:1em;
+}
+#alignright
+{
+	width: 300px;
+    height: 200px;
+    float: left;
+}#alignright2
+{
+	float: right;
+    width: 300px;
+    height: 200px;
+}
+
+div.cinta
+{
+	background-color:pink;
+	width:60%;
+	margin-left:5em;
+}
+#general{
+    margin: auto;
+    width: 950px;
+    height: auto;
+    background-color: white;
+    box-shadow: 5px 5px 30px;
+}
+.contenido
+{
+	background-color: white;
+    width: 700px;
+    height: 280px;
+    box-shadow: 10px 5px 10px black;
+    border: 2px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px 5px 5px 5px;
+    padding: 15px;
+    float: left;
+
+	
+}
+
+#header {
+	margin-left:35em;
+	width: 00px;
+	font-family: arial, Helvetica, sans-serif;
+	
+	
+}
+
+ul, ol {
+	list-style: none;
+}
+
+.nav li a {
+	background-color:pink;
+	color: #000000;	
+	text-decoration: none;
+	padding: 10px 15px;
+	display: block;
+}
+
+.nav > li {
+	float:left;
+}
+
+.nav li a: hover {
+	background-color: pink;
+}
+
+.nav li ul {
+	display:none;
+	position: absolute;
+	min-width: 140px;
+}
+.nav li:hover > ul {
+	display:block;
+}
+.nav li ul li {
+	position: relative;
+}
+
+.nav li ul li ul {
+	left:140px;
+}
+
+.parr {
+	font-size: 15px;
+}
+.sobre
+{
+	background-color: pink;
+	height: 6%;
+	margin:auto;
+}
+@keyframes cambio {
+  0% {margin-left: 0;}
+  20%{margin-left: 30;}
+
+  25%{margin-left: -50%;}
+  45%{margin-left: -90%;}
+
+  50%{margin-left: -150%;}
+  70%{margin-left: -70%;}
+
+  75%{margin-left: -20%;}
+  100%{margin-left: -180%;}
+}
+.cinta{
+  width: 95%;
+  margin: auto;
+  overflow: hidden;
+  background: black;
+}
+.cinta ul{
+  display: flex;
+  padding: 0;
+  width: 400px;
+
+  animation: cambio 20s infinite  alternate;
+  animation-timing-function: ease-in-out;
+
+}
+.cinta:nth-child(1) ul{
+  animation-timing-function: step-start;
+}
+.cinta li{
+  width: 100%;
+  list-style: none;
+}
+.cinta img{
+  margin: 1em;
+  width: 700px;
+  margin-left: 10px;
+}
+.menu{
+	 margin:auto;
+	 width:450px;
+	 height:50px;
+	position:relative;
+	
+}
+.menu  ul li a {}
+ul , ol {
+	list-style:none;
+	
+}
